@@ -15,6 +15,10 @@ header {
     text-align: center;
 }
 
+.weapons > p {
+    font-size: 200%;
+}
+
 .playing-area {
     display: flex;
     justify-content: center;
@@ -22,6 +26,11 @@ header {
     align-items: center;
     margin: 3rem;
     gap: 50px;
+}
+
+.playing-area, h3 {
+    font-size: 150%;
+    font-weight: 100;
 }
 
 img {
