@@ -17,12 +17,22 @@ header {
     margin-right: auto;
 }
 
-.weapons {
+.game-area > p {
     text-align: center;
+    font-size: 200%;
 }
 
-.weapons > p {
-    font-size: 200%;
+.weapons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.selection > img {
+    height: 150px;
+    width: 200px;
 }
 
 .playing-area {
