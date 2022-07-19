@@ -15,6 +15,27 @@ header {
     text-align: center;
 }
 
+.playing-area {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 3rem;
+    gap: 50px;
+}
+
+img {
+    width: 350px;
+    height: 250px;
+}
+
+footer {
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 footer > p {
     font-family: Abel, sans-serif;
 }
