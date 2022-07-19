@@ -35,6 +35,12 @@ header {
     width: 200px;
 }
 
+.selection img:hover {
+    transform: scale(1.1);
+    transition: 400ms ease-in-out;
+    cursor: pointer;
+}
+
 .playing-area {
     display: flex;
     justify-content: center;
