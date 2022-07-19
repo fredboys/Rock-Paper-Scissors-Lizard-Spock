@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap');
+
+body {
+    font-family: Bebas Neue, sans-serif;
+}
+
+header {
+    font-size: 250%;
+    text-align: center;
+}
+
+/* game area */
+
+.weapons {
+    text-align: center;
+}
+
+footer > p {
+    font-family: Abel, sans-serif;
+}
