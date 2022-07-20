@@ -8,26 +8,30 @@
 </head> 
 <body>
     <header>
-        <h1>Rock, Paper, Scissors,<br>Lizard & Spock</h1>
+        <div class="header-item"></div>
+        <h1 class="header-item" id="logo">Rock, Paper, Scissors,<br>Lizard & Spock</h1>
+        <div class="header-item" id="rules">
+            <button id="rules">RULES</button>
+        </div>
     </header>
 
     <section class="game-area">
         <p>Choose Your Weapon!</p>
         <div class="weapons">
             <div onclick="submit()" class="selection">
-                <img src="assets/images/rock-image.jpg" alt="">
+                <img src="assets/images/rock-image.jpg" alt="A rock">
             </div>
             <div onclick="submit()" class="selection">
-                <img src="" alt="">
+                <img src="assets/images/paper-image.jpg" alt="A scrunched up piece of paper">
             </div>
             <div onclick="submit()" class="selection">
-                <img src="" alt="">
+                <img src="assets/images/scissors-image.jpg" alt="A pair of scissors">
             </div>
             <div onclick="submit()" class="selection">
-                <img src="" alt="">
+                <img src="assets/images/lizard-image.jpg" alt="A green lizard">
             </div>
             <div onclick="submit()" class="selection">
-                <img src="" alt="">
+                <img src="assets/images/spock-image.png" alt="Animated image of Spock">
             </div>
         </div>
         <div class="playing-area">
@@ -44,7 +48,8 @@
         </div>
         </div>
     </section>
-
+    
+<!--
     <footer>
         <h3>RULES:</h3>
         <p>Scissors cuts paper | Paper covers rock | Rock crushes scissors <br> Rock crushes lizard | Lizard poisons Spock | 
@@ -55,7 +60,7 @@
         </div>
 
     </footer>
-
+-->
     <script src="assets/js/script.js"></script>
 </body>
 </html>

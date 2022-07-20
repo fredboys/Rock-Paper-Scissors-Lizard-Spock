@@ -5,8 +5,37 @@ body {
 }
 
 header {
-    font-size: 250%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#logo {
+    font-size: 350%;
+    text-decoration: none;
+    white-space: nowrap;
     text-align: center;
+}
+
+.header-item {
+    flex: 1;
+}
+
+#rules {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: Bebas Neue, sans-serif;
+}
+
+#rules button:hover {
+    transform: scale(1.1);
+    transition: 400ms ease-in-out;
+    cursor: pointer;
 }
 
 /* game area */
@@ -19,7 +48,7 @@ header {
 
 .game-area > p {
     text-align: center;
-    font-size: 200%;
+    font-size: 130%;
 }
 
 .weapons {
@@ -52,14 +81,14 @@ header {
 }
 
 .playing-area, h3 {
-    font-size: 150%;
+    font-size: 130%;
     font-weight: 100;
     text-align: center;
 }
 
 img {
-    width: 350px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
 }
 
 footer {
