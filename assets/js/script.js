@@ -31,7 +31,17 @@ function playGame(playerChoice) {
     computerImage.src = `assets/images/${choices[computerChoice]}-image.jpg`;
     computerImage.alt = choices[computerChoice];
 
+    const computerChoiceString = choices[computerChoice];
+    const playerChoiceString = choices[playerChoice];
 
+    const didPlayerWin = didPlayerWin(playerChoiceString, computerChoiceString);
+
+        if (didPlayerWin) {
+            playerScore.innerHTML++;
+        }
+        else {
+            computerScore.innerHTML++;
+        }
 }
 
 
