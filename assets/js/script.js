@@ -34,14 +34,14 @@ function playGame(playerChoice) {
     const computerChoiceString = choices[computerChoice];
     const playerChoiceString = choices[playerChoice];
 
-    // const didPlayerWin = didPlayerWin(playerChoiceString, computerChoiceString);
+     const didPlayerWin = didPlayerWin(playerChoiceString, computerChoiceString);
 
-    //     if (didPlayerWin) {
-    //         playerScore.innerHTML++;
-    //     }
-    //     else {
-    //         computerScore.innerHTML++;
-    //     }
+        if (didPlayerWin) {
+           playerScore.innerHTML++;
+       }
+        else {
+            computerScore.innerHTML++;
+         }
 }
 
 /**
