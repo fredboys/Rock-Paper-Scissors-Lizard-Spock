@@ -24,20 +24,23 @@ header {
     flex: 1;
 }
 
-#rules {
+.btn {
     background: none;
     border: none;
     outline: none;
     cursor: pointer;
     font-size: 2rem;
     font-family: Bebas Neue, sans-serif;
+    text-decoration: underline;
 }
 
-#rules button:hover {
+.btn:hover {
     transform: scale(1.1);
     transition: 400ms ease-in-out;
     cursor: pointer;
 }
+
+/* Modal rules pop up */
 
 /* game area */
 
