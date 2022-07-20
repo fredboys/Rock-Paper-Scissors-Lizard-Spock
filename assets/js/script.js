@@ -30,4 +30,51 @@ function playGame(playerChoice) {
 
     computerImage.src = `assets/images/${choices[computerChoice]}-image.jpg`;
     computerImage.alt = choices[computerChoice];
+
+
+}
+
+
+function didPlayerWin(playerChoice, computerChoice) {
+    switch (playerChoice) {
+        case "rock":
+            if (computerChoice == "scissors" || computerChoice == "lizard") {
+                return true;
+            }
+            else {
+                return false 
+            }
+        case "paper":
+            if (computerChoice == "rock" || computerChoice == "spock") {
+                return true;
+            }
+            else {
+                return false
+            }
+        case "scissors":
+            if (computerChoice == "paper" || computerChoice == "lizard") {
+                return true;
+            }
+            else {
+                return false
+            }
+        case "lizard":
+            if (computerChoice == "spock" || computerChoice == "paper") {
+                return true;
+            } 
+            else {
+                return false
+            }
+        case "spock":
+            if (computerChoice == "scissors" || computerChoice == "rock") {
+                return true;
+            } 
+            else {
+                return false
+            }
+
+        default:
+            console.error("out of range value was put in")
+            break;
+    }
 }
