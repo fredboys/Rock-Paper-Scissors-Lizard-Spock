@@ -44,7 +44,9 @@ function playGame(playerChoice) {
         }
 }
 
-
+/**
+ * This function tells us if the player has won or not
+ */
 function didPlayerWin(playerChoice, computerChoice) {
     switch (playerChoice) {
         case "rock":
