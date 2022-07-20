@@ -80,6 +80,10 @@ header {
     cursor: pointer;
 }
 
+.player,.computer {
+    border: 3px solid black;
+}
+
 .playing-area {
     display: flex;
     justify-content: center;
@@ -99,4 +103,6 @@ header {
 img {
     width: 250px;
     height: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
