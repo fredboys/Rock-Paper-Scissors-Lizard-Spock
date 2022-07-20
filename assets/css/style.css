@@ -100,13 +100,3 @@ img {
     width: 250px;
     height: 200px;
 }
-
-footer {
-    text-align: center;
-    margin: 2rem;
-    font-size: 130%;
-}
-
-footer > p {
-    font-family: Abel, sans-serif;
-}
