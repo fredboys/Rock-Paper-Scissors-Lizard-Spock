@@ -91,6 +91,9 @@ function didPlayerWin(playerChoice, computerChoice) {
     }
 }
 
+/**
+ * Gets the current score from the DOM and increments by 1
+ */
 function incrementYourScore() {
     if (didPlayerWin) {
         player-score.innerText++;
