@@ -90,3 +90,12 @@ function didPlayerWin(playerChoice, computerChoice) {
             break;
     }
 }
+
+function incrementYourScore() {
+    if (didPlayerWin) {
+        player-score.innerText++;
+    } 
+    else {
+        computer-score.innerText++;
+    }
+}
