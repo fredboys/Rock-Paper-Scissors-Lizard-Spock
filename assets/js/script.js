@@ -5,6 +5,7 @@ const playerImage = document.getElementById("player-image");
 const computerImage = document.getElementById("computer-image");
 const messages = document.getElementById("message");
 const choices = ["rock", "paper", "scissors", "lizard", "spock"]
+const restart = document.getElementById("restart")
 
 
 /**
@@ -16,6 +17,11 @@ for (let button of buttons) {
         playGame(playerChoice);
     });
 }
+
+/**
+ * Add event listener to restart button
+ */
+ restart.addEventListener("click", restartGame)
 
 /**
  * The main game function. Accepts one parameter, which
@@ -120,4 +126,13 @@ function calculateIfPlayerWon(playerChoice, computerChoice) {
         computerScore.innerText = newScore;
         messages.innerText = "COMPUTER WIN";
     }
+}
+
+/**
+ * Restarts the game and scores back to 0
+ */
+ function restartGame() {
+    playerScore.innerText = 0;
+    computerScore.innerText = 0;
+    alert("Game is Reset");
 }
