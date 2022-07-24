@@ -59,7 +59,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: no-wrap;
+    flex-wrap: wrap;
 }
 
 .selection {
@@ -71,6 +71,7 @@ header {
 .selection > img {
     height: 100px;
     width: 120px;
+
 }
 
 .selection img:hover {
@@ -80,7 +81,7 @@ header {
 }
 
 .player,.computer {
-    border: 3px solid black;
+    border: 2px solid black;
 }
 
 .playing-area {
@@ -88,9 +89,9 @@ header {
     justify-content: center;
     justify-items: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     margin: 3rem;
-    gap: 50px;
+    gap: 3px;
 }
 
 .playing-area, h3 {
@@ -104,4 +105,45 @@ header {
     height: 120px;
     margin-left: 25px;
     margin-right: 25px;
+}
+
+@media only screen and (max-width: 580px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1px;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    #player-image, #computer-image {
+        width: 100px;
+        height: 70px;
+    }
+
+    .selection > img {
+        height: 60px;
+        width: 80px;
+    }
+
+    .playing-area, h3 {
+        font-size: 100%;
+    }
+
+    #logo {
+        font-size: 200%;
+    }
+
+    .btn {
+        font-size: 135%;
+    }
+
+    .game-area > p {
+        font-size: 100%;
+    }
+
 }
