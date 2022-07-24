@@ -23,16 +23,25 @@ for (let button of buttons) {
  */
 function playGame(playerChoice) {
 
+    //Get a random value for the computer
+    let computerChoice = Math.floor(Math.random() * 5);
+
+
+    //Getting string results for the player and computers from the integer choice, eg "spock", "lizard"
+    const computerChoiceString = choices[computerChoice];
+    const playerChoiceString = choices[playerChoice];
+
+
+    //Set the player image to the players choice
     playerImage.src = `assets/images/${choices[playerChoice]}-image.jpg`;
     playerImage.alt = choices[playerChoice];
 
-    let computerChoice = Math.floor(Math.random() * 5);
 
+    //Set the computer image to the computers choice
     computerImage.src = `assets/images/${choices[computerChoice]}-image.jpg`;
     computerImage.alt = choices[computerChoice];
 
-    const computerChoiceString = choices[computerChoice];
-    const playerChoiceString = choices[playerChoice];
+    
 
      const didPlayerWin = didPlayerWin(playerChoiceString, computerChoiceString);
 

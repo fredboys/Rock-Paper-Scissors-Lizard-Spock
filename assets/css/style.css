@@ -147,3 +147,45 @@ header {
     }
 
 }
+
+@media only screen and (max-width: 580px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1px;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 490px) {
+    #player-image, #computer-image {
+        width: 100px;
+        height: 70px;
+    }
+
+    .selection > img {
+        height: 60px;
+        width: 80px;
+    }
+
+    .playing-area, h3 {
+        font-size: 100%;
+    }
+
+    #logo {
+        font-size: 200%;
+    }
+
+    .btn {
+        font-size: 135%;
+    }
+
+    .game-area > p {
+        font-size: 100%;
+    }
+
+}
