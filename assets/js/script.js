@@ -42,21 +42,25 @@ function playGame(playerChoice) {
     computerImage.alt = choices[computerChoice];
 
     
+    if (playerChoiceString == computerChoiceString) {
+        messages.innerText = "DRAW";
+        return
+    }
 
-     const didPlayerWin = didPlayerWin(playerChoiceString, computerChoiceString);
+    //Calculate if the player won
+    const didPlayerWin = calculateIfPlayerWon(playerChoiceString, computerChoiceString);
 
-        if (didPlayerWin) {
-           playerScore.innerHTML++;
-       }
-        else {
-            computerScore.innerHTML++;
-         }
+    //Increment the scores based on if the player won
+    incrementYourScore(didPlayerWin);
+
 }
+
+
 
 /**
  * This function tells us if the player has won or not
  */
-function didPlayerWin(playerChoice, computerChoice) {
+function calculateIfPlayerWon(playerChoice, computerChoice) {
     switch (playerChoice) {
         case "rock":
             if (computerChoice == "scissors" || computerChoice == "lizard") {
