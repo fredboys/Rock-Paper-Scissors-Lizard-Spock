@@ -162,7 +162,7 @@ header {
 }
 
 
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 540px) {
     #player-image, #computer-image {
         width: 100px;
         height: 70px;
