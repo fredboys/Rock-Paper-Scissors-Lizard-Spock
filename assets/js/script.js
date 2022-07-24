@@ -67,35 +67,35 @@ function calculateIfPlayerWon(playerChoice, computerChoice) {
                 return true;
             }
             else {
-                return false 
+                return false;
             }
         case "paper":
             if (computerChoice == "rock" || computerChoice == "spock") {
                 return true;
             }
             else {
-                return false
+                return false;
             }
         case "scissors":
             if (computerChoice == "paper" || computerChoice == "lizard") {
                 return true;
             }
             else {
-                return false
+                return false;
             }
         case "lizard":
             if (computerChoice == "spock" || computerChoice == "paper") {
                 return true;
             } 
             else {
-                return false
+                return false;
             }
         case "spock":
             if (computerChoice == "scissors" || computerChoice == "rock") {
                 return true;
             } 
             else {
-                return false
+                return false;
             }
 
         default:
@@ -107,11 +107,17 @@ function calculateIfPlayerWon(playerChoice, computerChoice) {
 /**
  * Gets the current score from the DOM and increments by 1
  */
-function incrementYourScore() {
+ function incrementYourScore(didPlayerWin) {
+
+    //Get computer or player html tag, and get the number value of the tag and increment by 1
     if (didPlayerWin) {
-        player-score.innerText++;
+        const newScore = Number(playerScore.innerText) + 1;
+        playerScore.innerText = newScore;
+        messages.innerText = "YOU WIN";
     } 
     else {
-        computer-score.innerText++;
+        const newScore = Number(computerScore.innerText) +1;
+        computerScore.innerText = newScore;
+        messages.innerText = "COMPUTER WIN";
     }
 }
