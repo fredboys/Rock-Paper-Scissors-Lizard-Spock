@@ -26,30 +26,17 @@ for (let button of buttons) {
  */
  restart.addEventListener("click", restartGame)
 
- /**
-  * When the user clicks the rules button, open the modal
-  */
-btn.onclick = function() {
-    modal.style.display = "block";
-}
 
 function styleModal() {
-    var element = 
-    document.getElementsByClassName("modal");
-    element.classList.toggle("active");
+    modal.classList.toggle("active");
 }
-
-// When the user clicks on <span> "close", close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-  }
 
 /**
  * When the user clicks anywhere outside the modal, close it 
  */
 window.onclick = function(event) {
     if (event.target == modal) {
-        modal.style.display = "none";
+        styleModal();
     }
 }
 
