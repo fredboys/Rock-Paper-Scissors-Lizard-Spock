@@ -27,13 +27,19 @@ for (let button of buttons) {
  restart.addEventListener("click", restartGame)
 
  /**
-  * When the user clicks the rukkes button, open the modal
+  * When the user clicks the rules button, open the modal
   */
 btn.onclick = function() {
     modal.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
+function styleModal() {
+    var element = 
+    document.getElementsById("myModal");
+    element.classList.toggle("active");
+}
+
+// When the user clicks on <span> "close", close the modal
 span.onclick = function() {
     modal.style.display = "none";
   }
