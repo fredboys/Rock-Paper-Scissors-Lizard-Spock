@@ -33,6 +33,15 @@ btn.onclick = function() {
 }
 
 /**
+ * Add class active styling to modal
+ */
+function styleModal() {
+    var element =
+    document.getElementsByClassName("modal-content");
+    element.classList.toggle("active");
+}
+
+/**
  * When the user clicks anywhere outside the modal, close it 
  */
 window.onclick = function(event) {
@@ -152,5 +161,6 @@ function calculateIfPlayerWon(playerChoice, computerChoice) {
  function restartGame() {
     playerScore.innerText = 0;
     computerScore.innerText = 0;
+    messages.innerText = "";
     alert("Game is Reset");
 }
