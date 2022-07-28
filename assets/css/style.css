@@ -59,7 +59,8 @@ header {
     text-align: center;
     padding: 20px;
     border: 3px solid black;
-    font-size: 125%;
+    width: 80%;
+    
 }
 
 .modal.active {
@@ -164,6 +165,10 @@ header {
 
     .mobile {
         display: none;
+    }
+
+    .modal-content {
+        font-size: 80%;
     }
 }
 
