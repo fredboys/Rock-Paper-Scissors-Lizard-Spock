@@ -6,6 +6,8 @@ const computerImage = document.getElementById("computer-image");
 const messages = document.getElementById("message");
 const choices = ["rock", "paper", "scissors", "lizard", "spock"]
 const restart = document.getElementById("restart")
+const modal = document.getElementById("myModal")
+const btn = document.getElementById("myBtn")
 
 
 /**
@@ -22,6 +24,22 @@ for (let button of buttons) {
  * Add event listener to restart button
  */
  restart.addEventListener("click", restartGame)
+
+ /**
+  * When the user clicks the rukkes button, open the modal
+  */
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+/**
+ * When the user clicks anywhere outside the modal, close it 
+ */
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 
 /**
  * The main game function. Accepts one parameter, which

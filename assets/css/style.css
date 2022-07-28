@@ -43,6 +43,31 @@ header {
 
 /* Modal rules pop up */
 
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100vw; 
+    height: 100vh; 
+    overflow: auto; 
+}
+
+.modal-content {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+    font-size: 125%;
+}
+
+.modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* game area */
 
 .game-area {
@@ -115,6 +140,10 @@ header {
     justify-content: center;
 }
 
+#restart {
+    padding: 4px;
+}
+
 #restart:hover {
     cursor: pointer;
 }
@@ -123,47 +152,7 @@ header {
     display: flex;
     justify-content: center;
     margin: 5px;
-}
-
-@media only screen and (max-width: 580px) {
-    header {
-        flex-direction: column;
-        justify-content: center;
-        gap: 1px;
-    }
-
-    .mobile {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 490px) {
-    #player-image, #computer-image {
-        width: 100px;
-        height: 70px;
-    }
-
-    .selection > img {
-        height: 60px;
-        width: 80px;
-    }
-
-    .playing-area, h3 {
-        font-size: 100%;
-    }
-
-    #logo {
-        font-size: 200%;
-    }
-
-    .btn {
-        font-size: 135%;
-    }
-
-    .game-area > p {
-        font-size: 100%;
-    }
-
+    
 }
 
 @media only screen and (max-width: 580px) {
@@ -207,3 +196,34 @@ header {
     }
 
 }
+
+@media only screen and (max-width: 490px) {
+    #player-image, #computer-image {
+        width: 100px;
+        height: 70px;
+    }
+
+    .selection > img {
+        height: 60px;
+        width: 80px;
+    }
+
+    .playing-area, h3 {
+        font-size: 100%;
+    }
+
+    #logo {
+        font-size: 200%;
+    }
+
+    .btn {
+        font-size: 135%;
+    }
+
+    .game-area > p {
+        font-size: 100%;
+    }
+
+}
+
+
