@@ -26,7 +26,9 @@ for (let button of buttons) {
  */
  restart.addEventListener("click", restartGame)
 
-
+/**
+ *  Activates class active when rules button clicked
+ */
 function styleModal() {
     modal.classList.toggle("active");
 }
