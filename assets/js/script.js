@@ -35,7 +35,7 @@ btn.onclick = function() {
 
 function styleModal() {
     var element = 
-    document.getElementsById("myModal");
+    document.getElementsByClassName("modal");
     element.classList.toggle("active");
 }
 
