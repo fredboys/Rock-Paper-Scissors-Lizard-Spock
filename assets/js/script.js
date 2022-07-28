@@ -8,6 +8,7 @@ const choices = ["rock", "paper", "scissors", "lizard", "spock"]
 const restart = document.getElementById("restart")
 const modal = document.getElementById("myModal")
 const btn = document.getElementById("myBtn")
+const span = document.getElementsByClassName("close")[0];
 
 
 /**
@@ -32,14 +33,10 @@ btn.onclick = function() {
     modal.style.display = "block";
 }
 
-/**
- * Add class active styling to modal
- */
-function styleModal() {
-    var element =
-    document.getElementsByClassName("modal-content");
-    element.classList.toggle("active");
-}
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+  }
 
 /**
  * When the user clicks anywhere outside the modal, close it 

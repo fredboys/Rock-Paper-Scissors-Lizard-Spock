@@ -63,11 +63,17 @@ header {
     
 }
 
-.modal.active {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.close {
+    font-size: 110%;
+    text-decoration: underline;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
 /* game area */
 
