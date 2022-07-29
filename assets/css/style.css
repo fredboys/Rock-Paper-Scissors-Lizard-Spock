@@ -211,6 +211,14 @@ header {
         font-size: 100%;
     }
 
+    .playing-area {
+        margin-bottom: 10px;
+    }
+
+    #restart {
+        font-size: 60%;
+    }
+
 }
 
 @media only screen and (max-width: 490px) {
@@ -271,10 +279,6 @@ header {
 
     #restart {
         font-size: 50%;
-    }
-
-    .playing-area {
-        margin-bottom: 10px;
     }
 }
 
