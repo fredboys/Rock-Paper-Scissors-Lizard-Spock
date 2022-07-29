@@ -242,4 +242,40 @@ header {
 
 }
 
+@media only screen and (max-width: 380px) {
+    #player-image, #computer-image {
+        width: 70px;
+        height: 40px;
+    }
+
+    .selection > img {
+        height: 40px;
+        width: 60px;
+    }
+
+    .playing-area, h3 {
+        font-size: 80%;
+    }
+
+    #logo {
+        font-size: 130%;
+    }
+
+    .btn {
+        font-size: 100%;
+    }
+
+    .game-area > p {
+        font-size: 80%;
+    }
+
+    #restart {
+        font-size: 50%;
+    }
+
+    .playing-area {
+        margin-bottom: 10px;
+    }
+}
+
 
