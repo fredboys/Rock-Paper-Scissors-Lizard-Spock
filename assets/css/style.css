@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap');
 
+
 body {
     font-family: Bebas Neue, sans-serif;
     background-color: bisque;
@@ -60,6 +61,12 @@ header {
     border: 3px solid black;
     max-width: 80%;
     font-size: 150%;
+}
+
+#rule-list {
+    list-style: none;
+    margin-left: -40px;
+    letter-spacing: .5px;
 }
 
 .active {
@@ -180,7 +187,7 @@ header {
     }
 
     .modal-content {
-        font-size: 135%;
+        font-size: 130%;
     }
 }
 
