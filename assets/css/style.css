@@ -59,6 +59,7 @@ header {
     padding: 20px;
     border: 3px solid black;
     max-width: 80%;
+    font-size: 150%;
 }
 
 .active {
@@ -164,7 +165,7 @@ header {
     display: flex;
     justify-content: center;
     margin: 5px;
-    font-size: 130%;
+    font-size: 10%;
 }
 
 @media only screen and (max-width: 580px) {
@@ -179,7 +180,7 @@ header {
     }
 
     .modal-content {
-        font-size: 80%;
+        font-size: 125%;
     }
 }
 
