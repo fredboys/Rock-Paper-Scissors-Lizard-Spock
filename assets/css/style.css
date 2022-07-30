@@ -172,7 +172,7 @@ header {
     display: flex;
     justify-content: center;
     margin: 5px;
-    font-size: 10%;
+    font-size: 150%;
 }
 
 @media only screen and (max-width: 580px) {
@@ -253,6 +253,10 @@ header {
     }
 
     .game-area > p {
+        font-size: 100%;
+    }
+
+    #message {
         font-size: 100%;
     }
 
