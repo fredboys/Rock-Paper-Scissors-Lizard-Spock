@@ -95,4 +95,9 @@ The live link can be found here - [Rock, Paper, Scissors, Lizard & Spock](https:
 ### Content
 
 * The code to create the rules modal was taken and adapted from [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp)
-* The code to make the weapons selected appear by the user and computer in their respected boxes was taken from [Code Institute's portfolio project scope](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/S) 
+* The code to make the weapons selected appear by the user and computer in their respected boxes and adding an event listener to the buttons were taken from [Code Institute's portfolio project scope](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/S) 
+* The content for the rules were taken from [The Big Bang Theory Wiki](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+
+### Media 
+
+* The images for the weapons were taken from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/)
