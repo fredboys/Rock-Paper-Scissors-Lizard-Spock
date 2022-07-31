@@ -184,11 +184,11 @@ header {
     transform: scale(1.3);
 }
 
-.not-found-title {
+#not-found-title {
     margin-bottom: 2px;
 }
 
-.link {
+#link {
     color: black;
 }
 
