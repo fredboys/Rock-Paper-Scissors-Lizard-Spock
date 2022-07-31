@@ -188,6 +188,10 @@ header {
     margin-bottom: 2px;
 }
 
+.link {
+    color: black;
+}
+
 @media only screen and (max-width: 580px) {
     header {
         flex-direction: column;
