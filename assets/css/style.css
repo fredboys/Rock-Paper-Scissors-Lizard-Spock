@@ -220,7 +220,7 @@ header {
         width: 80px;
     }
 
-    .playing-area, h2 {
+    .playing-area h2 {
         font-size: 100%;
     }
 
@@ -257,7 +257,7 @@ header {
         width: 80px;
     }
 
-    .playing-area, h2 {
+    .playing-area h2 {
         font-size: 100%;
     }
 
@@ -288,10 +288,6 @@ header {
     .selection > img {
         height: 40px;
         width: 60px;
-    }
-
-    .playing-area, h2 {
-        font-size: 100%;
     }
 
     #logo {
