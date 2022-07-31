@@ -135,7 +135,7 @@ header {
     justify-content: center;
     justify-items: center;
     align-items: center;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
     margin: 3rem;
     margin-top: 0;
     gap: 3px;
