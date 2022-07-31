@@ -2,7 +2,7 @@
 
 
 body {
-    font-family: Bebas Neue, sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     background-color: bisque;
 }
 
@@ -32,7 +32,7 @@ header {
     outline: none;
     cursor: pointer;
     font-size: 200%;
-    font-family: Bebas Neue, sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     text-decoration: underline;
 }
 
