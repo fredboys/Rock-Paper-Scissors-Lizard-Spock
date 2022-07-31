@@ -57,7 +57,7 @@ The site will be targeted towards people who love The Big Bang Theory (thats whe
 * I confirm that the header, game area, rules and message text are all readable and easy to understand.
 * I confirm that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
-![Lighthouse testing]()
+![Lighthouse testing](/readme-assets/rpsls-lighthouse.png)
 
 ### Bugs 
 
@@ -72,4 +72,27 @@ The site will be targeted towards people who love The Big Bang Theory (thats whe
     * No errors were returned when passing through the offical [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 
 * JavaScript
-    * 
+    * No errors were returned when passing through [JSHint JavaScript validator](https://jshint.com/)
+        * The following metrics were returned :
+            * There are 7 functions in this file
+            * Function with the largest signature take 2 arguments, while the median is 1
+            * Largest function has 12 statements in it, while the median is 4
+            * The most complex function has a cyclomatic complexity value of 16 while the median is 2
+
+## Deployment
+---
+* This site was deployed to GitHub Pages. The steps to deploy are as follows:
+    * In GitHub pages , navigate to the Settings tab
+    * Down the left hand side menu, navigate to the Pages tab 
+    * Select the Main branch and select save
+    * The page will automatically refresh and the page link will appear at the top of the GitHub pages
+    * When a green tick appears it indicates a successful deployment
+
+The live link can be found here - [Rock, Paper, Scissors, Lizard & Spock](https://fredboys.github.io/Rock-Paper-Scissors-Lizard-Spock/)
+
+## Credits 
+---
+### Content
+
+* The code to create the rules modal was taken and adapted from [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp)
+* The code to make the weapons selected appear by the user and computer in their respected boxes was taken from [Code Institute's portfolio project scope](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/S) 

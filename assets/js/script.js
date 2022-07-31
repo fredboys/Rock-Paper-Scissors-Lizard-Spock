@@ -152,5 +152,9 @@ function calculateIfPlayerWon(playerChoice, computerChoice) {
     playerScore.innerText = 0;
     computerScore.innerText = 0;
     messages.innerText = "";
+    playerImage.src = `assets/images/questionmark-image.jpg`;
+    playerImage.alt = "A question mark";
+    computerImage.src = `assets/images/questionmark-image.jpg`;
+    computerImage.alt = "A question mark";
     alert("Game is Reset");
 }
