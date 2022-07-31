@@ -52,8 +52,12 @@ The site will be targeted towards people who love The Big Bang Theory (thats whe
 ## Testing
 ---
 * I tested that this page works in different broswers such as; Google Chrome, Safari and Firefox.
-* The page is responsive, all links work and it all looks good on different standard screen sizes using devtools and testing out on different devices.
-* I confirm that the header, game area and message text are all readable and easy to understand.
+* I confim that the game results are always correct.
+* I confirm the page is responsive and it all looks good on different standard screen sizes using devtools and testing out on different devices.
+* I confirm that the header, game area, rules and message text are all readable and easy to understand.
+* I confirm that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+
+![Lighthouse testing]()
 
 ### Bugs 
 

@@ -141,7 +141,7 @@ header {
     gap: 3px;
 }
 
-.playing-area, h3 {
+.playing-area, h2 {
     font-size: 120%;
     font-weight: 100;
     text-align: center;
@@ -203,7 +203,7 @@ header {
         width: 80px;
     }
 
-    .playing-area, h3 {
+    .playing-area, h2 {
         font-size: 100%;
     }
 
@@ -240,7 +240,7 @@ header {
         width: 80px;
     }
 
-    .playing-area, h3 {
+    .playing-area, h2 {
         font-size: 100%;
     }
 
@@ -273,8 +273,8 @@ header {
         width: 60px;
     }
 
-    .playing-area, h3 {
-        font-size: 80%;
+    .playing-area, h2 {
+        font-size: 100%;
     }
 
     #logo {
@@ -290,7 +290,7 @@ header {
     }
 
     #restart {
-        font-size: 50%;
+        font-size: 60%;
     }
 }
 
