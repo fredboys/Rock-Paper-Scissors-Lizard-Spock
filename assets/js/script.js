@@ -7,8 +7,6 @@ const messages = document.getElementById("message");
 const choices = ["rock", "paper", "scissors", "lizard", "spock"]
 const restart = document.getElementById("restart")
 const modal = document.getElementById("myModal")
-const btn = document.getElementById("myBtn")
-const span = document.getElementsByClassName("close")[0];
 
 
 /**
@@ -24,7 +22,7 @@ for (let button of buttons) {
 /**
  * Add event listener to restart button
  */
- restart.addEventListener("click", restartGame)
+ restart.addEventListener("click", restartGame);
 
 /**
  *  Activates class active when rules button clicked
@@ -40,7 +38,7 @@ window.onclick = function(event) {
     if (event.target == modal) {
         styleModal();
     }
-}
+};
 
 /**
  * The main game function. Accepts one parameter, which
@@ -69,7 +67,7 @@ function playGame(playerChoice) {
     
     if (playerChoiceString == computerChoiceString) {
         messages.innerText = "DRAW";
-        return
+        return;
     }
 
     //Calculate if the player won

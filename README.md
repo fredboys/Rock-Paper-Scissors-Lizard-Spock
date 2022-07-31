@@ -8,8 +8,9 @@ The site will be targeted towards people who love The Big Bang Theory (thats whe
 
 ## Features
 ---
-### Logo
-* Featured at the top of the page, the Rock, Paper, Scissors, Lizard & Spock heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+### Header
+* Featured at the top of the page, the Rock, Paper, Scissors, Lizard & Spock heading is easy to see for the user. Its in a font that is in good contrast with the background.
+* The user will be able to clearly identify the game they will be playing.
 
 ![Header of the page](/readme-assets/rpsls-header.png)
 
@@ -21,23 +22,25 @@ The site will be targeted towards people who love The Big Bang Theory (thats whe
 ### Game area
 * Weapons selection
     * This section will allow the user to play the game. Here the user selects what weapon they would like to use and try to beat the computer with.
-    * The user will be able to easily see icons for Rock, Paper, Scissors, Lizard & Spock.
+    * The user will be able to easily see icons for Rock, Paper, Scissors, Lizard & Spock and make their choice to play the game.
+    * The weapon options includes a clear instruction and then a choice of options to choose from to play with. The option are interactive buttons the user can click.
 
 ![Weapon selection icons](/readme-assets/rpsls-weapons.png)
 
-* Selected weapons 
+* Selected weapons results
     * This section will show the user what both they and the computer have selected. 
     * The icon will change from the default question mark icon to whichever icon was selected.
+    * The JavaScript code chooses a random option for the computer player and then determines if the player won.
 
 ![The weapons selected](/readme-assets/rpsls-weapons-select.png)
 
 * Winner display message
-    * This feature provides the user a pop up of who won each game.
+    * This feature provides the user a display of text of who won each game.
 
 ![Winner pop up message](/readme-assets/rpsls-message.png)
 
 * Score area
-    * This section will allow the user to see exactly what score both they and the computer are on.
+    * This section will allow the user to see exactly what score both the player and the computer are on.
 
 ![Score area](/readme-assets/rpsls-score.png)
 
@@ -60,3 +63,9 @@ The site will be targeted towards people who love The Big Bang Theory (thats whe
 
 * HTML  
     * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+
+* CSS 
+    * No errors were returned when passing through the offical [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+
+* JavaScript
+    * 
