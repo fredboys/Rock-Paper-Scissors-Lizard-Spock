@@ -4,9 +4,9 @@ const computerScore = document.getElementById("computer-score");
 const playerImage = document.getElementById("player-image");
 const computerImage = document.getElementById("computer-image");
 const messages = document.getElementById("message");
-const choices = ["rock", "paper", "scissors", "lizard", "spock"]
-const restart = document.getElementById("restart")
-const modal = document.getElementById("myModal")
+const choices = ["rock", "paper", "scissors", "lizard", "spock"];
+const restart = document.getElementById("restart");
+const modal = document.getElementById("myModal");
 
 
 /**
@@ -91,38 +91,38 @@ function calculateIfPlayerWon(playerChoice, computerChoice) {
             }
             else {
                 return false;
-            }
+            } break;
         case "paper":
             if (computerChoice == "rock" || computerChoice == "spock") {
                 return true;
             }
             else {
                 return false;
-            }
+            } break;
         case "scissors":
             if (computerChoice == "paper" || computerChoice == "lizard") {
                 return true;
             }
             else {
                 return false;
-            }
+            } break;
         case "lizard":
             if (computerChoice == "spock" || computerChoice == "paper") {
                 return true;
             } 
             else {
                 return false;
-            }
+            } break;
         case "spock":
             if (computerChoice == "scissors" || computerChoice == "rock") {
                 return true;
             } 
             else {
                 return false;
-            }
+            } break;
 
         default:
-            console.error("out of range value was put in")
+            console.error("out of range value was put in");
             break;
     }
 }
