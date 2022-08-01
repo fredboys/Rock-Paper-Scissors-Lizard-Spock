@@ -64,7 +64,7 @@ function playGame(playerChoice) {
     computerImage.src = `assets/images/${choices[computerChoice]}-image.jpg`;
     computerImage.alt = choices[computerChoice];
 
-    
+    //Determine if its a draw and display "DRAW"
     if (playerChoiceString == computerChoiceString) {
         messages.innerText = "DRAW";
         return;
