@@ -69,7 +69,7 @@ The site will be targeted towards people who love The Big Bang Theory (thats whe
     * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
 
 * CSS 
-    * No errors were returned when passing through the offical [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+    * No errors were returned when passing through the offical [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 * JavaScript
     * No errors were returned when passing through [JSHint JavaScript validator](https://jshint.com/)
