@@ -4,6 +4,8 @@ The Rock, Paper, Scissors, Lizard & Spock page displays a game that demonstrates
 
 The site will be targeted towards people who love The Big Bang Theory (thats where the game concept came from) and want to play it for real but also anyone else who might enjoy a twist on the traditonal game. Rock, Paper, Scissors, Lizard & Spock is a fully responsive JavaScript game that will allow users to pick from all the objects and try to beat the computer.
 
+The live link can be found here - [Rock, Paper, Scissors, Lizard & Spock](https://fredboys.github.io/Rock-Paper-Scissors-Lizard-Spock/)
+
 ![Responsive display screen](/readme-assets/screenshot-rpsls.png)
 
 ## Features
@@ -87,8 +89,6 @@ The site will be targeted towards people who love The Big Bang Theory (thats whe
     * Select the Main branch and select save
     * The page will automatically refresh and the page link will appear at the top of the GitHub pages
     * When a green tick appears it indicates a successful deployment
-
-The live link can be found here - [Rock, Paper, Scissors, Lizard & Spock](https://fredboys.github.io/Rock-Paper-Scissors-Lizard-Spock/)
 
 ## Credits 
 ---
