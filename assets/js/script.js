@@ -8,7 +8,7 @@ const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 const restart = document.getElementById("restart");
 const modal = document.getElementById("myModal");
 
-
+//Taken this code from code institutes portfolio project scope
 /**
  * Add event listener to all the buttons
  */
@@ -54,12 +54,12 @@ function playGame(playerChoice) {
     const computerChoiceString = choices[computerChoice];
     const playerChoiceString = choices[playerChoice];
 
-
+    //Taken this code from code institutes portfolio project scope
     //Set the player image to the players choice
     playerImage.src = `assets/images/${choices[playerChoice]}-image.jpg`;
     playerImage.alt = choices[playerChoice];
 
-
+    //Taken this code from code institutes portfolio project scope
     //Set the computer image to the computers choice
     computerImage.src = `assets/images/${choices[computerChoice]}-image.jpg`;
     computerImage.alt = choices[computerChoice];
