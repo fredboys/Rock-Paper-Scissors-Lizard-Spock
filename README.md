@@ -50,8 +50,10 @@ The live link can be found here - [Rock, Paper, Scissors, Lizard & Spock](https:
 
 * Reset score
     * This section is a button that will allow the user to reset the scores of the game back to 0.
+    * Once the user clicks the button, an alert will pop up displaying a message that the game has reset.
 
 ![Reset scores button](/readme-assets/rpsls-reset.png)
+![Reset game alert](/readme-assets/rpsls-reset-alert.png)
 
 ## Testing
 ---
